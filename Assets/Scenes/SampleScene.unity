@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 926249550}
   m_Layer: 0
   m_Name: WallRight
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -456,6 +456,51 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1463240103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1463240105}
+  - component: {fileID: 1463240104}
+  m_Layer: 0
+  m_Name: Bricks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1463240104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463240103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9c39e7660e60c448a0c8e94cc05ab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BrickType: {fileID: 0}
+--- !u!4 &1463240105
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463240103}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.7126217, y: -0.3611803, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1551619718
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +514,7 @@ GameObject:
   - component: {fileID: 1551619721}
   m_Layer: 0
   m_Name: WallTop
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -580,7 +625,7 @@ GameObject:
   - component: {fileID: 1688011101}
   m_Layer: 0
   m_Name: WallLeft
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -689,7 +734,7 @@ GameObject:
   - component: {fileID: 1750077188}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -860,3 +905,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Paddle: {fileID: 1878375057}
   speed: 200
+  Walls:
+  - {fileID: 1688011100}
+  - {fileID: 926249549}
+  - {fileID: 1551619720}
+--- !u!1001 &6728208808888105743
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.7122
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.3032
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1761778884549040246, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1785046837287161218, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_Name
+      value: Brick
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}

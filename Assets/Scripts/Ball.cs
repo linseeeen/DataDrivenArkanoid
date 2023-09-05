@@ -9,6 +9,8 @@ public class Ball : MonoBehaviour
 
     public float speed = 1;
     private Vector2 velocity = Vector2.down;
+
+    private Vector2 direction;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,15 +25,16 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        Vector2 bounce;
         if (col.gameObject.CompareTag("Player"))
         {
-            bounce = transform.position - col.transform.position;
-            velocity = bounce.normalized * speed;
+            direction = transform.position - col.transform.position;
+            velocity = direction.normalized * speed;
         }
-        else
+        else if(col.gameObject.CompareTag("Wall"))
         {
             //use .Reflect to studsa bollen, bollen har ingen velocity i studsen
+            direction = Vector2.Reflect(direction, col.contacts[0].normal);
+            velocity = direction.normalized * speed;
         }
     }
 }

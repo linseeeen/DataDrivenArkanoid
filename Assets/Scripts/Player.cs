@@ -4,55 +4,57 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
-public class Player : MonoBehaviour
-{
+public class Player : MonoBehaviour {
     [SerializeField] GameObject Paddle;
     protected Vector3 paddlePosition;
     [SerializeField] protected float speed = 1;
+    public List<Transform> Walls;
     private CustomInput _input;
     private Vector2 move = Vector2.zero;
     private Rigidbody2D rb;
-    void Awake()
-    {
+    void Awake() {
         _input = new CustomInput();
         rb = GetComponent<Rigidbody2D>();
+        
     }
+
     //ska innehålla paddeln ?
     // Start is called before the first frame update
     
 
-    private void OnEnable()
-    {
+    private void OnEnable() {
         _input.Enable();
         _input.Player.Move.performed += OnMove;
         _input.Player.Move.canceled += OnMoveCancelled;
     }
 
-    private void OnDisable()
-    {
+    private void OnDisable() {
         _input.Disable();
         _input.Player.Move.performed -= OnMove;
         _input.Player.Move.canceled -= OnMoveCancelled;
     }
 
-    void FixedUpdate()
-    {
+    void FixedUpdate() {
         Move();
     }
 
-    private void Move()
-    {
+    private void Move() {
         rb.velocity = move * speed * Time.fixedDeltaTime;
     }
 
-    private void OnMove(InputAction.CallbackContext value)
-    {
+    private void OnCollisionEnter2D(Collision2D other) {
+        Vector3 positionNow = this.transform.position;
+        if (other.gameObject.CompareTag("Wall")){
+            this.transform.position = positionNow;
+        }
+    } 
+
+    private void OnMove(InputAction.CallbackContext value) {
         move = value.ReadValue<Vector2>();
     }
 
     //TODO: kolla om denna verkligen behövs
-    private void OnMoveCancelled(InputAction.CallbackContext value)
-    {
+    private void OnMoveCancelled(InputAction.CallbackContext value){
         move = Vector2.zero;
     }
 

@@ -2,13 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bricks : Level
+public class BrickManager : MonoBehaviour
 {
-    private bool powerUpable;
-
-    private int health;
-
-    private Color color;
+    public Brick BrickType;
     // Start is called before the first frame update
     void Start()
     {
