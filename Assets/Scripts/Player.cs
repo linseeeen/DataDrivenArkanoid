@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
 public class Player : MonoBehaviour {
+    
+    
     [SerializeField] GameObject Paddle;
     protected Vector3 paddlePosition;
     [SerializeField] protected float speed = 1;
@@ -12,6 +14,9 @@ public class Player : MonoBehaviour {
     private CustomInput _input;
     private Vector2 move = Vector2.zero;
     private Rigidbody2D rb;
+    public int Health = 1;
+
+    public bool gameStarted;
     void Awake() {
         _input = new CustomInput();
         rb = GetComponent<Rigidbody2D>();
@@ -26,12 +31,14 @@ public class Player : MonoBehaviour {
         _input.Enable();
         _input.Player.Move.performed += OnMove;
         _input.Player.Move.canceled += OnMoveCancelled;
+        
     }
 
     private void OnDisable() {
         _input.Disable();
         _input.Player.Move.performed -= OnMove;
         _input.Player.Move.canceled -= OnMoveCancelled;
+        
     }
 
     void FixedUpdate() {
@@ -52,6 +59,7 @@ public class Player : MonoBehaviour {
     private void OnMove(InputAction.CallbackContext value) {
         move = value.ReadValue<Vector2>();
     }
+
 
     //TODO: kolla om denna verkligen behövs
     private void OnMoveCancelled(InputAction.CallbackContext value){

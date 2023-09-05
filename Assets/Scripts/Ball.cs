@@ -11,6 +11,10 @@ public class Ball : MonoBehaviour
     private Vector2 velocity = Vector2.down;
 
     private Vector2 direction;
+
+    public Player PlayerObj;
+
+    public float HeightAbovePaddle = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,9 +34,13 @@ public class Ball : MonoBehaviour
             direction = transform.position - col.transform.position;
             velocity = direction.normalized * speed;
         }
-        else if(col.gameObject.CompareTag("Wall"))
+        else if(col.gameObject.CompareTag("Wall") || col.gameObject.CompareTag("Brick"))
         {
-            //use .Reflect to studsa bollen, bollen har ingen velocity i studsen
+            direction = Vector2.Reflect(direction, col.contacts[0].normal);
+            velocity = direction.normalized * speed;
+        }
+        else if(col.gameObject.CompareTag("Brick"))
+        {
             direction = Vector2.Reflect(direction, col.contacts[0].normal);
             velocity = direction.normalized * speed;
         }

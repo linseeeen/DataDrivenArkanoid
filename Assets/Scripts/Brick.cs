@@ -19,4 +19,5 @@ public class Brick : ScriptableObject
             Debug.LogWarning("Missing sprite", this);
         }
     }
+    
 }
