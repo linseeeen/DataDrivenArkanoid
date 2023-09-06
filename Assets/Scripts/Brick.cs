@@ -11,12 +11,13 @@ public class Brick : ScriptableObject
     public int Health = 1;
     public int Points = 1;
     public bool Destructable = true;
+    public Brick NextBrick;
 
     private void Awake()
     {
         if (PrefabSprite == null)
         {
-            Debug.LogWarning("Missing sprite", this);
+            Debug.LogWarning("Missing sprite in " + Prefabname, this);
         }
     }
     

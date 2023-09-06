@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
+[RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour {
-    
-    
+
     [SerializeField] GameObject Paddle;
     protected Vector3 paddlePosition;
     [SerializeField] protected float speed = 1;

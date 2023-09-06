@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 88b658845ec925944a75fad321162094, type: 3}
-  m_Name: GreenBrick
+  m_Name: BlueBrick
   m_EditorClassIdentifier: 
-  Prefabname: GreenBrick
-  PrefabSprite: {fileID: -308306152, guid: 19d9703828ddd5642b39e34a8a64dad6, type: 3}
+  Prefabname: BlueBrick
+  PrefabSprite: {fileID: 1907844804, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
   Health: 1
   Points: 1
   Destructable: 1
+  NextBrick: {fileID: 0}

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
+//[RequireComponent(typeof(CircleCollider2D))]
 public class Ball : MonoBehaviour
 {
     public Rigidbody2D rb;

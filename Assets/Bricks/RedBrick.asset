@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: RedBrick
   m_EditorClassIdentifier: 
   Prefabname: RedBrick
-  PrefabSprite: {fileID: -1892756701, guid: 19d9703828ddd5642b39e34a8a64dad6, type: 3}
-  Health: 2
+  PrefabSprite: {fileID: 184323722, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
+  Health: 3
   Points: 1
   Destructable: 1
+  NextBrick: {fileID: 11400000, guid: 11caaba5ebe0748488c6984d123e3685, type: 2}

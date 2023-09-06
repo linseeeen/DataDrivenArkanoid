@@ -5,6 +5,7 @@ using UnityEngine;
 //Execute always in order for the sprite to show up in the editor. To make changes easier.
 [ExecuteAlways]
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(BoxCollider2D))]
 public class BrickManager : MonoBehaviour
 {
     public Brick BrickType;
@@ -44,6 +45,7 @@ public class BrickManager : MonoBehaviour
         {
             health--;
             Debug.Log("hit");
+            if (BrickType.NextBrick != null) BrickType = BrickType.NextBrick;
         }
     }
 }
