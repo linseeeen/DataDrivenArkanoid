@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Ball", menuName = "Arkanoid/Ball", order = 2)]
-public class BallPowerUp : ScriptableObject
+[CreateAssetMenu(fileName = "New Ball", menuName = "Arkanoid/PowerUp/BallPowerUp", order = 1)]
+public class BallPowerUp : PowerUp
 {
     public string Name = "NewBall";
     public Sprite PrefabSprite;
