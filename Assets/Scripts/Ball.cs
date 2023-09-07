@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
-//[RequireComponent(typeof(CircleCollider2D))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class Ball : MonoBehaviour
 {
     public Rigidbody2D rb;
@@ -16,10 +16,17 @@ public class Ball : MonoBehaviour
     public Player PlayerObj;
 
     public float HeightAbovePaddle = 1;
+
+    private SpriteRenderer spriteRenderer;
+
+    public BallPowerUp BallPowerUpType;
+
+    public GameObject Parrent;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame

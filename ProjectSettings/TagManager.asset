@@ -7,6 +7,7 @@ TagManager:
   - Wall
   - Brick
   - Ball
+  - Capsule
   layers:
   - Default
   - TransparentFX
