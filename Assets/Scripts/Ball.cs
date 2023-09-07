@@ -6,27 +6,29 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class Ball : MonoBehaviour
 {
-    public Rigidbody2D rb;
-
-    public float speed = 1;
-    private Vector2 velocity = Vector2.down;
+    private Rigidbody2D rb;
+    
+    private Vector2 velocity;
 
     private Vector2 direction;
 
-    public Player PlayerObj;
-
-    public float HeightAbovePaddle = 1;
+    private float HeightAbovePaddle = 1;
+    private float speed;
 
     private SpriteRenderer spriteRenderer;
 
-    public BallPowerUp BallPowerUpType;
+    public BallScriptObj BallType;
 
-    public GameObject Parrent;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        
+        speed = BallType.Speed;
+        HeightAbovePaddle = BallType.HeightAbovePaddle;
+        velocity = BallType.StartAngle;
+        spriteRenderer.sprite = BallType.BallSprite;
     }
 
     // Update is called once per frame

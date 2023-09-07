@@ -8,7 +8,6 @@ using UnityEngine;
 public class CapsuleManager : MonoBehaviour
 {
     public CapsuleScriptObj CapsuleType;
-    public bool HasCollided = false;
     
     private SpriteRenderer spriterenderer;
 
@@ -29,7 +28,6 @@ public class CapsuleManager : MonoBehaviour
     {
         spriterenderer.sprite = CapsuleType.PrefabSprite;
         Move();
-        Debug.Log(HasCollided);
     }
 
     void Move()

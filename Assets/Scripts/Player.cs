@@ -4,9 +4,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
-[RequireComponent(typeof(Rigidbody2D))]
-public class Player : MonoBehaviour {
 
+
+
+[RequireComponent(typeof(Rigidbody2D))]
+public class Player : MonoBehaviour
+{
+
+    public event EventHandler<OnBallPowerUpEventArgs> OnBallPowerUp;
+
+    public class OnBallPowerUpEventArgs : EventArgs
+    {
+        public PowerUp EnabledPowerUp;
+    }
+    
     [SerializeField] GameObject Paddle;
     protected Vector3 paddlePosition;
     [SerializeField] protected float speed = 1;
@@ -15,6 +26,8 @@ public class Player : MonoBehaviour {
     private Vector2 move = Vector2.zero;
     private Rigidbody2D rb;
     public int Health = 1;
+
+    private PowerUp powerUp;
 
     public bool gameStarted;
     void Awake() {
@@ -66,4 +79,17 @@ public class Player : MonoBehaviour {
         move = Vector2.zero;
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        Debug.Log("Colliding with PowerUp");
+        //Checks if not null
+        if (col.gameObject.CompareTag("Capsule"))
+        {
+            GameObject capsule = col.gameObject;
+            CapsuleManager capsuleM = capsule.GetComponent<CapsuleManager>();
+            powerUp = capsuleM.CapsuleType.PowerUpType;
+            OnBallPowerUp?.Invoke(this, new OnBallPowerUpEventArgs{EnabledPowerUp = powerUp});
+        }
+        
+    }
 }
