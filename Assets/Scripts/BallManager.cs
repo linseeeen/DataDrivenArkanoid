@@ -19,12 +19,12 @@ public class BallManager : MonoBehaviour
 
     private void OnEnable()
     {
-        player.OnBallPowerUp += SpawnBall;
+        player.OnPowerUp += SpawnBall;
     }
 
     private void OnDisable()
     {
-        player.OnBallPowerUp -= SpawnBall;
+        player.OnPowerUp -= SpawnBall;
     }
 
     // Update is called once per frame
@@ -33,7 +33,7 @@ public class BallManager : MonoBehaviour
         childNumber = transform.childCount;
     }
 
-    private void SpawnBall(object sender, Player.OnBallPowerUpEventArgs e)
+    private void SpawnBall(object sender, Player.OnPowerUpEventArgs e)
     {
         PowerUp powerUp = e.EnabledPowerUp;
 

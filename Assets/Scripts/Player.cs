@@ -11,9 +11,9 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
 
-    public event EventHandler<OnBallPowerUpEventArgs> OnBallPowerUp;
+    public event EventHandler<OnPowerUpEventArgs> OnPowerUp;
 
-    public class OnBallPowerUpEventArgs : EventArgs
+    public class OnPowerUpEventArgs : EventArgs
     {
         public PowerUp EnabledPowerUp;
     }
@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
             GameObject capsule = col.gameObject;
             CapsuleManager capsuleM = capsule.GetComponent<CapsuleManager>();
             powerUp = capsuleM.CapsuleType.PowerUpType;
-            OnBallPowerUp?.Invoke(this, new OnBallPowerUpEventArgs{EnabledPowerUp = powerUp});
+            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp});
         }
         
     }
