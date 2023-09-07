@@ -10,13 +10,6 @@ public class BallManager : MonoBehaviour
     
     public Player player;
     
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     private void OnEnable()
     {
         player.OnPowerUp += SpawnBall;
@@ -42,6 +35,6 @@ public class BallManager : MonoBehaviour
             Debug.Log("BallPowerUp!");
         }
         
-        Debug.Log("Event has reached me");
+        //Debug.Log("Event has reached me");
     }
 }
