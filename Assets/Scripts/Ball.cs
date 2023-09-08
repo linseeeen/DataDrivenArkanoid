@@ -29,6 +29,7 @@ public class Ball : MonoBehaviour
         HeightAbovePaddle = BallType.HeightAbovePaddle;
         velocity = BallType.StartAngle;
         spriteRenderer.sprite = BallType.BallSprite;
+        Physics.IgnoreLayerCollision(3, 3);
     }
 
     // Update is called once per frame
@@ -39,6 +40,11 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
+        
+        if (col.gameObject.CompareTag("Ball"))
+        {
+            rb.isKinematic = true;
+        }
         if (col.gameObject.CompareTag("Player"))
         {
             direction = transform.position - col.transform.position;
@@ -53,6 +59,14 @@ public class Ball : MonoBehaviour
         {
             direction = Vector2.Reflect(direction, col.contacts[0].normal);
             velocity = direction.normalized * speed;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if(other.gameObject.CompareTag("Ball"))
+        {
+            rb.isKinematic = false;
         }
     }
 }

@@ -11,7 +11,7 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
 
-    public event EventHandler<OnPowerUpEventArgs> OnPowerUp;
+    public static event EventHandler<OnPowerUpEventArgs> OnPowerUp;
 
     public class OnPowerUpEventArgs : EventArgs
     {

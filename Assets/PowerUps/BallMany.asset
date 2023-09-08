@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BallMany
   m_EditorClassIdentifier: 
   Name: "BallMany\xA8"
-  PrefabSprite: {fileID: 617548994, guid: 19d9703828ddd5642b39e34a8a64dad6, type: 3}
   StartAngle: {x: 0, y: -1}
-  AmountOfBalls: 3
-  Speed: 4
+  AmountOfBalls: 10
+  BallPrefab: {fileID: 3909084525689239653, guid: cc0c00c7301d6a945b53009f64be80f5, type: 3}
+  BallRadius: {x: 0, y: 0, z: 0}
