@@ -12,6 +12,7 @@ public class Brick : ScriptableObject
     public int Points = 1;
     public bool Destructable = true;
     public Brick NextBrick;
+    
 
     private void Awake()
     {
