@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     public class OnPowerUpEventArgs : EventArgs
     {
         public PowerUp EnabledPowerUp;
+        public Vector3 playerPosition;
     }
     
     [SerializeField] GameObject Paddle;
@@ -88,7 +89,7 @@ public class Player : MonoBehaviour
             GameObject capsule = col.gameObject;
             CapsuleManager capsuleM = capsule.GetComponent<CapsuleManager>();
             powerUp = capsuleM.CapsuleType.PowerUpType;
-            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp});
+            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position});
         }
         
     }

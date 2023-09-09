@@ -2,7 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+[ExecuteAlways]
 [CreateAssetMenu(fileName = "New Brick", menuName = "Arkanoid/Brick", order = 1)]
 public class Brick : ScriptableObject
 {
@@ -12,7 +12,8 @@ public class Brick : ScriptableObject
     public int Points = 1;
     public bool Destructable = true;
     public Brick NextBrick;
-    
+    public List<GameObject> PossiblePowerUps = new List<GameObject>();
+
 
     private void Awake()
     {
@@ -20,6 +21,19 @@ public class Brick : ScriptableObject
         {
             Debug.LogWarning("Missing sprite in " + Prefabname, this);
         }
+
+        
     }
-    
+
+    private void OnEnable()
+    {
+        foreach (GameObject g in PossiblePowerUps)
+        {
+            if (!g.CompareTag("Capsule"))
+            {
+                PossiblePowerUps.Remove(g);
+                Debug.LogWarning(g + "Is not a powerUp caspsule, removing.");
+            }
+        }
+    }
 }

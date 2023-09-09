@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
+
 //Execute always in order for the sprite to show up in the editor. To make changes easier.
 [ExecuteAlways]
 [RequireComponent(typeof(SpriteRenderer))]
@@ -11,6 +13,7 @@ public class BrickManager : MonoBehaviour
     public Brick BrickType;
     private SpriteRenderer spriteRenderer;
     private int health;
+    private Random random = new Random();
 
     
     // Start is called before the first frame update
@@ -45,6 +48,26 @@ public class BrickManager : MonoBehaviour
         {
             health--;
             Debug.Log("hit");
+            if(BrickType.PossiblePowerUps.Count > 0)
+            {
+                for (int i = 0; i < BrickType.PossiblePowerUps.Count; i++)
+                {
+                    //TODO: detta behöver bli snyggare, chansen kanske borde flyttas? borde kanske vara att en brick
+                    //har en chans att spawna en powerup och att den är samma för att varianter, men lägger man en powerup
+                    //längst bak så minskar ju chansen ändå efterom att den kommer försöka spawna de andra innan ändå
+                    float chance = BrickType.PossiblePowerUps[i].GetComponent<CapsuleManager>().CapsuleType
+                        .SpawnPossibility;
+                    int rand = random.Next(0, 100);
+                    if (rand <= chance)
+                    {
+                        Instantiate(BrickType.PossiblePowerUps[0], this.transform.position, this.transform.rotation);
+                    }
+
+                }
+                
+            }
+            
+            
             if (BrickType.NextBrick != null) BrickType = BrickType.NextBrick;
         }
     }

@@ -15,3 +15,5 @@ MonoBehaviour:
   PrefabSprite: {fileID: 950677973, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
   Name: BallMany
   PowerUpType: {fileID: 11400000, guid: 759b211651ec6d24599f831f453eed4b, type: 2}
+  Speed: 1
+  SpawnPossibility: 0.53

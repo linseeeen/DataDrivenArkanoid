@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88b658845ec925944a75fad321162094, type: 3}
   m_Name: YellowBrick
   m_EditorClassIdentifier: 
-  Prefabname: New Brick
-  PrefabSprite: {fileID: 0}
+  Prefabname: YellowBrick
+  PrefabSprite: {fileID: 21300000, guid: 7d7424bb2c29230478af55f04e385200, type: 3}
   Health: 1
-  Points: 1
+  Points: 10
   Destructable: 1
   NextBrick: {fileID: 0}
+  PossiblePowerUps: []

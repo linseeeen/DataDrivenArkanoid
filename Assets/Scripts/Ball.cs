@@ -60,6 +60,10 @@ public class Ball : MonoBehaviour
             direction = Vector2.Reflect(direction, col.contacts[0].normal);
             velocity = direction.normalized * speed;
         }
+        else if (col.gameObject.CompareTag("Finish"))
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnCollisionExit2D(Collision2D other)

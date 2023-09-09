@@ -50,8 +50,8 @@ public class BallPowerUp : PowerUp
         {
             for (int i = 0; i < AmountOfBalls; i++)
             {
-                Vector3 position = new Vector3(BallPrefab.transform.position.x + (size.x * i), BallPrefab.transform.position.y,
-                    BallPrefab.transform.position.z);
+                Vector3 position = new Vector3(e.playerPosition.x + (size.x * i), e.playerPosition.y + 1,
+                    e.playerPosition.z);
                 Instantiate(BallPrefab, position, BallPrefab.transform.rotation);
             }
         }
