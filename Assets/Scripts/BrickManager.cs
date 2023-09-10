@@ -10,6 +10,9 @@ using Random = System.Random;
 [RequireComponent(typeof(BoxCollider2D))]
 public class BrickManager : MonoBehaviour
 {
+    public static event EventHandler OnBrickInstans;
+    public static event EventHandler OnBrickDestroy;
+    
     public Brick BrickType;
     private SpriteRenderer spriteRenderer;
     private int health;
@@ -22,6 +25,7 @@ public class BrickManager : MonoBehaviour
         name = BrickType.Prefabname;
         spriteRenderer = GetComponent<SpriteRenderer>();
         health = BrickType.Health;
+        OnBrickInstans?.Invoke(this, EventArgs.Empty);
     }
 
     // Update is called once per frame
@@ -38,6 +42,7 @@ public class BrickManager : MonoBehaviour
         if (health <= 0 && BrickType.Destructable)
         {
             Destroy(gameObject);
+            OnBrickDestroy?.Invoke(this, EventArgs.Empty);
         }
         
     }

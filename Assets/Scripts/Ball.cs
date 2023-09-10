@@ -6,6 +6,8 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class Ball : MonoBehaviour
 {
+    public static event EventHandler OnBallInstans;
+    public static event EventHandler OnBallDestroy;
     private Rigidbody2D rb;
     
     private Vector2 BallVelocity = Vector2.zero;
@@ -36,6 +38,7 @@ public class Ball : MonoBehaviour
         {
             BallVelocity = BallType.StartAngle;
         }
+        OnBallInstans?.Invoke(this, EventArgs.Empty);
     }
 
     private void OnEnable()
@@ -85,6 +88,7 @@ public class Ball : MonoBehaviour
         else if (col.gameObject.CompareTag("Finish"))
         {
             Destroy(gameObject);
+            OnBallDestroy?.Invoke(this, EventArgs.Empty);
         }
     }
 

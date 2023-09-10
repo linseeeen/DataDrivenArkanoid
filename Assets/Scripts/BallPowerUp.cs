@@ -5,6 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Ball", menuName = "Arkanoid/PowerUp/BallPowerUp", order = 1)]
 public class BallPowerUp : PowerUp
 {
+    
     //public string Name = "NewBallPowerUp";
     //public Sprite PrefabSprite;
     //public Vector2 EndAngle; //Behövs denna?
@@ -55,6 +56,5 @@ public class BallPowerUp : PowerUp
             }
         }
         
-        //Debug.Log("Event has reached me");
     }
 }
