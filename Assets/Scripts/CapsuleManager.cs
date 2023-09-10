@@ -7,7 +7,9 @@ using UnityEngine;
 [ExecuteAlways]
 public class CapsuleManager : MonoBehaviour
 {
-    public CapsuleScriptObj CapsuleType;
+    public Sprite PrefabSprite;
+    public PowerUp PowerUpType;
+    public float Speed = 1;
     
     private SpriteRenderer spriterenderer;
 
@@ -20,13 +22,12 @@ public class CapsuleManager : MonoBehaviour
     {
         spriterenderer = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
-        speed = CapsuleType.Speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        spriterenderer.sprite = CapsuleType.PrefabSprite;
+        spriterenderer.sprite = PrefabSprite;
         Move();
     }
 

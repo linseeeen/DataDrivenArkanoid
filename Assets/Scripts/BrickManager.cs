@@ -44,6 +44,11 @@ public class BrickManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        
+    }
+
+    private void OnCollisionExit2D(Collision2D other)
+    {
         if (other.gameObject.CompareTag("Ball"))
         {
             health--;
@@ -52,15 +57,16 @@ public class BrickManager : MonoBehaviour
             {
                 for (int i = 0; i < BrickType.PossiblePowerUps.Count; i++)
                 {
-                    //TODO: detta behöver bli snyggare, chansen kanske borde flyttas? borde kanske vara att en brick
-                    //har en chans att spawna en powerup och att den är samma för att varianter, men lägger man en powerup
-                    //längst bak så minskar ju chansen ändå efterom att den kommer försöka spawna de andra innan ändå
-                    float chance = BrickType.PossiblePowerUps[i].GetComponent<CapsuleManager>().CapsuleType
-                        .SpawnPossibility;
+                    float chance = BrickType.PowerUpSpawnPossibility;
+                    chance *= 100;
                     int rand = random.Next(0, 100);
+                    Debug.Log("Random nummer: " + rand);
+                    Debug.Log("Chans: " + chance);
                     if (rand <= chance)
                     {
                         Instantiate(BrickType.PossiblePowerUps[0], this.transform.position, this.transform.rotation);
+                        Debug.Log("Powerup spawnar woo!");
+                        break;
                     }
 
                 }

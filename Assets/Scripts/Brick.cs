@@ -13,6 +13,8 @@ public class Brick : ScriptableObject
     public bool Destructable = true;
     public Brick NextBrick;
     public List<GameObject> PossiblePowerUps = new List<GameObject>();
+    [Range(0,1)]
+    public float PowerUpSpawnPossibility;
 
 
     private void Awake()

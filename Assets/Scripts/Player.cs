@@ -82,15 +82,20 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
+        
+        
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
         Debug.Log("Colliding with PowerUp");
         //Checks if not null
-        if (col.gameObject.CompareTag("Capsule"))
+        if (other.gameObject.CompareTag("Capsule"))
         {
-            GameObject capsule = col.gameObject;
+            GameObject capsule = other.gameObject;
             CapsuleManager capsuleM = capsule.GetComponent<CapsuleManager>();
-            powerUp = capsuleM.CapsuleType.PowerUpType;
+            powerUp = capsuleM.PowerUpType;
             OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position});
         }
-        
     }
 }
