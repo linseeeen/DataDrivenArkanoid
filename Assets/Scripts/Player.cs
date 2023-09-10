@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
 
     public class OnPowerUpEventArgs : EventArgs
     {
-        public PowerUp EnabledPowerUp;
+        public string EnabledPowerUp;
         public Vector3 playerPosition;
     }
     
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     public int Health = 1;
 
-    private PowerUp powerUp;
+    private string powerUp;
 
     public bool gameStarted;
     void Awake() {
@@ -83,19 +83,20 @@ public class Player : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D col)
     {
         
-        
+        Debug.Log("Colliding with PowerUp");
+        //Checks if not null
+        if (col.gameObject.CompareTag("Capsule"))
+        {
+            GameObject capsule = col.gameObject;
+            CapsuleManager capsuleM = capsule.GetComponent<CapsuleManager>();
+            powerUp = capsuleM.PowerUpName;
+            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position});
+            Destroy(capsule);
+        }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        Debug.Log("Colliding with PowerUp");
-        //Checks if not null
-        if (other.gameObject.CompareTag("Capsule"))
-        {
-            GameObject capsule = other.gameObject;
-            CapsuleManager capsuleM = capsule.GetComponent<CapsuleManager>();
-            powerUp = capsuleM.PowerUpType;
-            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position});
-        }
+        
     }
 }

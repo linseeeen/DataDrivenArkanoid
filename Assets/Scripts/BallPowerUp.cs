@@ -7,11 +7,9 @@ public class BallPowerUp : PowerUp
 {
     public string Name = "NewBallPowerUp";
     //public Sprite PrefabSprite;
-    public Vector2 StartAngle = Vector2.down;
     //public Vector2 EndAngle; //Behövs denna?
     public int AmountOfBalls = 1;
     public GameObject BallPrefab;
-    public Vector3 BallRadius;
     private SpriteRenderer spriteRenderer;
     private Vector3 size;
 
@@ -45,8 +43,8 @@ public class BallPowerUp : PowerUp
     }
     private void SpawnBall(object sender, Player.OnPowerUpEventArgs e)
     {
-        PowerUp powerUp = e.EnabledPowerUp;
-        if (powerUp.GetType() == typeof(BallPowerUp))
+        string powerUp = e.EnabledPowerUp;
+        if (Name == powerUp)
         {
             for (int i = 0; i < AmountOfBalls; i++)
             {

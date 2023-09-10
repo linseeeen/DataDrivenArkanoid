@@ -10,10 +10,12 @@ public class CapsuleManager : MonoBehaviour
     public Sprite PrefabSprite;
     public PowerUp PowerUpType;
     public float Speed = 1;
-    
-    private SpriteRenderer spriterenderer;
 
-    private float speed;
+    public string PowerUpName
+    {
+        get { return PowerUpType.Name; }
+    }
+    private SpriteRenderer spriterenderer;
 
     private Rigidbody2D rb;
 
@@ -34,7 +36,7 @@ public class CapsuleManager : MonoBehaviour
     void Move()
     {
         Vector2 velocity = Vector2.down;
-        velocity *= speed;
+        velocity *= Speed;
         rb.velocity = velocity;
     }
 

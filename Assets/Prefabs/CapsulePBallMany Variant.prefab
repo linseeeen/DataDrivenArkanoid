@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3486827033262353321, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: PowerUpType
+      value: 
+      objectReference: {fileID: 11400000, guid: 759b211651ec6d24599f831f453eed4b, type: 2}
+    - target: {fileID: 3486827033262353321, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: PrefabSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d6bbc686b687e24489d508d9c378269b, type: 3}
     - target: {fileID: 4259772949068440909, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -58,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 5946469836346570379, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 950677973, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
+      objectReference: {fileID: 21300000, guid: d6bbc686b687e24489d508d9c378269b, type: 3}
     - target: {fileID: 5946469836346570380, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
       propertyPath: CapsuleType
       value: 
