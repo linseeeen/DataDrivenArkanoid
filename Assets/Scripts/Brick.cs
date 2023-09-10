@@ -27,7 +27,7 @@ public class Brick : ScriptableObject
         
     }
 
-    private void OnEnable()
+    /*private void OnEnable()
     {
         foreach (GameObject g in PossiblePowerUps)
         {
@@ -37,5 +37,5 @@ public class Brick : ScriptableObject
                 Debug.LogWarning(g + "Is not a powerUp caspsule, removing.");
             }
         }
-    }
+    }*/
 }

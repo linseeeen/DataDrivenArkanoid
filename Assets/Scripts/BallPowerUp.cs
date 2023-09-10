@@ -41,6 +41,7 @@ public class BallPowerUp : PowerUp
     {
         Player.OnPowerUp -= SpawnBall;
     }
+    //TODO: bollarna behöver spawna med lite olika vinklar så att de inte är i varandra
     private void SpawnBall(object sender, Player.OnPowerUpEventArgs e)
     {
         string powerUp = e.EnabledPowerUp;
