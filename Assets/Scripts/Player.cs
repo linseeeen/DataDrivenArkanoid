@@ -1,22 +1,23 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.InputSystem;
-
-
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class Player : MonoBehaviour
 {
 
     public static event EventHandler<OnPowerUpEventArgs> OnPowerUp;
+    public static event EventHandler OnStart; 
 
     public class OnPowerUpEventArgs : EventArgs
     {
         public string EnabledPowerUp;
         public Vector3 playerPosition;
+        public GameObject paddel;
     }
     
     [SerializeField] GameObject Paddle;
@@ -46,6 +47,7 @@ public class Player : MonoBehaviour
         _input.Player.Move.performed += OnMove;
         _input.Player.Move.canceled += OnMoveCancelled;
         
+        _input.Player.StartGame.performed += OnStartGame;
     }
 
     private void OnDisable() {
@@ -53,9 +55,11 @@ public class Player : MonoBehaviour
         _input.Player.Move.performed -= OnMove;
         _input.Player.Move.canceled -= OnMoveCancelled;
         
+        _input.Player.StartGame.performed -= OnStartGame;
     }
 
-    void FixedUpdate() {
+
+    void FixedUpdate() { 
         Move();
     }
 
@@ -80,6 +84,12 @@ public class Player : MonoBehaviour
         move = Vector2.zero;
     }
 
+    private void OnStartGame(InputAction.CallbackContext value)
+    {
+        OnStart?.Invoke(this, EventArgs.Empty);
+    }
+
+    
     private void OnTriggerEnter2D(Collider2D col)
     {
         
@@ -90,13 +100,9 @@ public class Player : MonoBehaviour
             GameObject capsule = col.gameObject;
             CapsuleManager capsuleM = capsule.GetComponent<CapsuleManager>();
             powerUp = capsuleM.PowerUpName;
-            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position});
+            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position, paddel = this.gameObject});
             Destroy(capsule);
         }
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        
-    }
 }

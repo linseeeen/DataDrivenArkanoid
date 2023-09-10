@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1adf347d99eb6bf4aadcd1ee59bd1b9d, type: 3}
-  m_Name: PBallMany
+  m_Script: {fileID: 11500000, guid: f3fe9c05192ac07478af12398dfc10fc, type: 3}
+  m_Name: PPaddelSmall
   m_EditorClassIdentifier: 
-  Name: BallMany
+  Name: PaddelSmall
+  Paddel: {fileID: 908224040978230837, guid: 21059fadb90626847b658bba73a840b6, type: 3}
+  scale: {x: 0.5, y: 0.66}
+  amount: 0

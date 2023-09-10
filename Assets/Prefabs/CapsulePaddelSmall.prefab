@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3983410422638169856
+--- !u!1001 &7135080083911185562
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,31 +10,11 @@ PrefabInstance:
     - target: {fileID: 3486827033262353321, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
       propertyPath: PowerUpType
       value: 
-      objectReference: {fileID: 11400000, guid: 759b211651ec6d24599f831f453eed4b, type: 2}
+      objectReference: {fileID: 11400000, guid: 41247d76a59b9234fa3f623aa50cdaea, type: 2}
     - target: {fileID: 3486827033262353321, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
       propertyPath: PrefabSprite
       value: 
-      objectReference: {fileID: 21300000, guid: d6bbc686b687e24489d508d9c378269b, type: 3}
-    - target: {fileID: 4259772949068440909, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
-      propertyPath: m_Size.x
-      value: 4.8838634
-      objectReference: {fileID: 0}
-    - target: {fileID: 4259772949068440909, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
-      propertyPath: m_Size.y
-      value: 1.2609159
-      objectReference: {fileID: 0}
-    - target: {fileID: 4259772949068440909, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.008167137
-      objectReference: {fileID: 0}
-    - target: {fileID: 4259772949068440909, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
-      propertyPath: m_Offset.y
-      value: 9.425434e-10
-      objectReference: {fileID: 0}
-    - target: {fileID: 4259772949068440909, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 900e53fcf83b2364c83411924b2fa7b3, type: 3}
     - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -82,14 +62,10 @@ PrefabInstance:
     - target: {fileID: 5946469836346570379, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: d6bbc686b687e24489d508d9c378269b, type: 3}
-    - target: {fileID: 5946469836346570380, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
-      propertyPath: CapsuleType
-      value: 
-      objectReference: {fileID: 11400000, guid: a81e330e61a7c4845824739b0135e60c, type: 2}
+      objectReference: {fileID: 21300000, guid: 900e53fcf83b2364c83411924b2fa7b3, type: 3}
     - target: {fileID: 5946469836346570382, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
       propertyPath: m_Name
-      value: CapsulePBallMany Variant
+      value: CapsulePaddelSmall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c660278883b40a547b50e3c1f30721e6, type: 3}

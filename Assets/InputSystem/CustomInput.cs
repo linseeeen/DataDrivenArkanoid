@@ -39,7 +39,7 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""StartGame"",
                     ""type"": ""Button"",
-                    ""id"": ""a3c420d5-fd94-4dc7-acd0-7110c1158106"",
+                    ""id"": ""3ef005a4-f3e9-455e-b21d-1e0a808c9803"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -115,8 +115,8 @@ public partial class @CustomInput: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""5cdb9374-0a23-45de-86f6-3cbc681b09f8"",
-                    ""path"": ""<Keyboard>/enter"",
+                    ""id"": ""eb9b5b6e-602b-45f9-9761-8fede49fe25d"",
+                    ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

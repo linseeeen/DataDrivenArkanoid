@@ -41,12 +41,6 @@ public class BrickManager : MonoBehaviour
         }
         
     }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        
-    }
-
     private void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ball"))
@@ -60,11 +54,9 @@ public class BrickManager : MonoBehaviour
                     float chance = BrickType.PowerUpSpawnPossibility;
                     chance *= 100;
                     int rand = random.Next(0, 100);
-                    Debug.Log("Random nummer: " + rand);
-                    Debug.Log("Chans: " + chance);
                     if (rand <= chance)
                     {
-                        Instantiate(BrickType.PossiblePowerUps[0], this.transform.position, this.transform.rotation);
+                        Instantiate(BrickType.PossiblePowerUps[i], this.transform.position, this.transform.rotation);
                         Debug.Log("Powerup spawnar woo!");
                         break;
                     }
