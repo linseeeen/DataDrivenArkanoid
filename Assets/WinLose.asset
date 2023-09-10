@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9a010f34b95fb4cb373eda17a7729f, type: 3}
   m_Name: WinLose
   m_EditorClassIdentifier: 
-  winLose: 
+  winLose: Test
   Points: 0

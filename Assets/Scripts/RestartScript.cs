@@ -10,11 +10,17 @@ public class RestartScript : MonoBehaviour
     private int Bricks = 0;
     public WinLose data;
     void Update()
-    {using UnityEngine.SceneManagement;
+    {
+        if (Bricks == 0)
+        {
+            data.winLose = "You Won!";
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        //TODO: gör så att den automatiskt räknar hur många scener som finns och tar en till slutet
         if (Balls == 0)
         {
             data.winLose = "You Lost!";
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(2);
         }
 
     }
