@@ -15,10 +15,10 @@ TagManager:
   - Ball
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Capsule
+  - Walls
+  - DeathWall
   - 
   - 
   - 

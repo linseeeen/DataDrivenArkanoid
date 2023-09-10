@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: BallBig
   m_EditorClassIdentifier: 
   Name: BallBig
-  StartAngle: {x: 0, y: -1}
   AmountOfBalls: 1
-  BallPrefab: {fileID: 8171456218570766640, guid: 7107c282cf4c6ba48b6222bc04975647, type: 3}
-  BallRadius: {x: 0, y: 0, z: 0}
+  BallPrefab: {fileID: 8790323408760494065, guid: a1ed371bce66b5c498b237eb1dde8965, type: 3}

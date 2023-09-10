@@ -40,11 +40,6 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        
-        if (col.gameObject.CompareTag("Ball"))
-        {
-            rb.isKinematic = true;
-        }
         if (col.gameObject.CompareTag("Player"))
         {
             direction = transform.position - col.transform.position;
@@ -66,11 +61,4 @@ public class Ball : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if(other.gameObject.CompareTag("Ball"))
-        {
-            rb.isKinematic = false;
-        }
-    }
 }

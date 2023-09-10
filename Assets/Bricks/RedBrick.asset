@@ -20,3 +20,4 @@ MonoBehaviour:
   NextBrick: {fileID: 11400000, guid: 11caaba5ebe0748488c6984d123e3685, type: 2}
   PossiblePowerUps:
   - {fileID: 7332405979900606862, guid: cd76f89d587f97e4d9289e8c3d12bad1, type: 3}
+  PowerUpSpawnPossibility: 1
