@@ -83,7 +83,7 @@ public class BrickManager : MonoBehaviour
                 CameraShake.Shaking = true;
                 OnBrickDestroy?.Invoke(this, new OnBrickDestroyEventArgs{Points = BrickType.Points});
                 Instantiate(BrickType.NextBrick, transform.position, transform.rotation);
-                Destroy(gameObject, 0.5f);
+                Destroy(gameObject, 0.05f);
                 
             }
         }

@@ -34,6 +34,7 @@ public class RestartScript : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(Bricks);
         if (Bricks == 0)
         {
             data.winLose = "You Won!";
