@@ -2,29 +2,37 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
+
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(AudioSource))]
 public class Ball : MonoBehaviour
 {
+    //Runs when a ball is created.
     public static event EventHandler OnBallInstans;
+    //Runs when a ball is destroyed.
     public static event EventHandler OnBallDestroy;
+    
+    [Tooltip("The scriptableobject containing the data about what kind of brick this should be.")]
+    public BallScriptObj BallType;
+    [Tooltip("Checked if this is the first ball created")]
+    public bool FirstBall = false;
+    
+    
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
+    private AudioSource audio;
     
     private Vector2 BallVelocity = Vector2.zero;
-
     private Vector2 direction;
 
+    //Set in the scriptableObject
     private float HeightAbovePaddle = 1;
     private float speed;
 
-    private SpriteRenderer spriteRenderer;
-
-    public BallScriptObj BallType;
     private bool gameRunning = false;
-    public bool FirstBall = false;
-    private AudioSource audio;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -35,11 +43,15 @@ public class Ball : MonoBehaviour
         HeightAbovePaddle = BallType.HeightAbovePaddle;
         
         spriteRenderer.sprite = BallType.BallSprite;
-        rb.velocity = BallVelocity;
+        
+        
+        //IF this is not the first ball created then it should be moving instantly
         if (!FirstBall)
         {
-            BallVelocity = BallType.StartAngle;
+            BallVelocity = Random.insideUnitCircle  * speed;
+            direction = BallVelocity;
         }
+        rb.velocity = BallVelocity;
         OnBallInstans?.Invoke(this, EventArgs.Empty);
         audio = GetComponent<AudioSource>();
     }
