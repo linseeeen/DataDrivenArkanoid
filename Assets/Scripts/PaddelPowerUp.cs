@@ -5,9 +5,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Ball", menuName = "Arkanoid/PowerUp/PaddelPowerUp", order = 2)]
 public class PaddelPowerUp : PowerUp
 {
+    [Tooltip("The player paddel.")]
     public GameObject Paddel;
+    [Tooltip("How much the paddel should scale")]
     public Vector2 scale = new Vector2(1,1);
-    public int amount;
 
     private void OnEnable()
     {

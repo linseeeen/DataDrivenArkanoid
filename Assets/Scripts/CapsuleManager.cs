@@ -7,8 +7,11 @@ using UnityEngine;
 [ExecuteAlways]
 public class CapsuleManager : MonoBehaviour
 {
+    [Tooltip("The sprite of the capsule")]
     public Sprite PrefabSprite;
+    [Tooltip("The type of powerup for this capsule.")]
     public PowerUp PowerUpType;
+    [Tooltip("How fast the capsule should fall.")]
     public float Speed = 1;
 
     public string PowerUpName

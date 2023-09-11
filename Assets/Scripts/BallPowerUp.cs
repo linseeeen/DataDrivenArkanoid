@@ -5,11 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Ball", menuName = "Arkanoid/PowerUp/BallPowerUp", order = 1)]
 public class BallPowerUp : PowerUp
 {
-    
-    //public string Name = "NewBallPowerUp";
-    //public Sprite PrefabSprite;
-    //public Vector2 EndAngle; //Behövs denna?
+    [Tooltip("How many balls this powerup will spawn.")]
     public int AmountOfBalls = 1;
+    [Tooltip("Prefab of the ball this powerup should spawn.")]
     public GameObject BallPrefab;
     private SpriteRenderer spriteRenderer;
     private Vector3 size;
@@ -42,7 +40,6 @@ public class BallPowerUp : PowerUp
     {
         Player.OnPowerUp -= SpawnBall;
     }
-    //TODO: bollarna behöver spawna med lite olika vinklar så att de inte är i varandra
     private void SpawnBall(object sender, Player.OnPowerUpEventArgs e)
     {
         string powerUp = e.EnabledPowerUp;

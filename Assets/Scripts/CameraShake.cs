@@ -18,14 +18,11 @@ public class CameraShake : MonoBehaviour
         }
     }
 
+    [Tooltip("Change when the shake should be the most powerful.")]
     public AnimationCurve curve;
 
+    [Tooltip("How long the shake should go on, in seconds.")]
     public float duration = 1f;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()

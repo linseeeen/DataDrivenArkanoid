@@ -16,7 +16,7 @@ public class BrickManager : MonoBehaviour
     {
         public int Points;
     }
-    
+    [Tooltip("The type this brick will start as.")]
     public Brick BrickType;
     private SpriteRenderer spriteRenderer;
     private int health;
@@ -30,7 +30,7 @@ public class BrickManager : MonoBehaviour
         name = BrickType.Prefabname;
         spriteRenderer = GetComponent<SpriteRenderer>();
         health = BrickType.Health;
-        OnBrickInstans?.Invoke(this, EventArgs.Empty);
+        if(BrickType.Destructable) OnBrickInstans?.Invoke(this, EventArgs.Empty);
         //animator = GetComponent<Animator>();
     }
 
