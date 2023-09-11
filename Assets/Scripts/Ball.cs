@@ -81,7 +81,8 @@ public class Ball : MonoBehaviour
         }
         else if(col.gameObject.CompareTag("Wall") || col.gameObject.CompareTag("Brick"))
         {
-            direction = Vector2.Reflect(direction, col.contacts[0].normal);
+            ContactPoint2D contact = col.GetContact(0);
+            direction = Vector2.Reflect(direction, contact.normal);
             BallVelocity = direction.normalized * speed;
             audio.Play();
         }

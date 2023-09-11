@@ -31,6 +31,7 @@ public class Player : MonoBehaviour
 
     private AudioSource audio;
     public bool gameStarted;
+    public GameObject BallPrefab;
     void Awake() {
         _input = new CustomInput();
         rb = GetComponent<Rigidbody2D>();
@@ -47,6 +48,8 @@ public class Player : MonoBehaviour
         _input.Player.Move.canceled += OnMoveCancelled;
         
         _input.Player.StartGame.performed += OnStartGame;
+
+        RestartScript.OnHealthLoss += NewBall;
     }
 
     private void OnDisable() {
@@ -55,6 +58,7 @@ public class Player : MonoBehaviour
         _input.Player.Move.canceled -= OnMoveCancelled;
         
         _input.Player.StartGame.performed -= OnStartGame;
+        RestartScript.OnHealthLoss -= NewBall;
     }
 
 
@@ -88,6 +92,11 @@ public class Player : MonoBehaviour
         OnStart?.Invoke(this, EventArgs.Empty);
     }
 
+    private void NewBall(object sender, EventArgs e)
+    {
+        Instantiate(BallPrefab, this.transform).GetComponent<Ball>().FirstBall = true;
+        Debug.Log("New Ball Spawning!");
+    }
     
     private void OnTriggerEnter2D(Collider2D col)
     {

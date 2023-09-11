@@ -11,7 +11,11 @@ using Random = System.Random;
 public class BrickManager : MonoBehaviour
 {
     public static event EventHandler OnBrickInstans;
-    public static event EventHandler OnBrickDestroy;
+    public static event EventHandler<OnBrickDestroyEventArgs> OnBrickDestroy;
+    public class OnBrickDestroyEventArgs : EventArgs
+    {
+        public int Points;
+    }
     
     public Brick BrickType;
     private SpriteRenderer spriteRenderer;
@@ -43,8 +47,9 @@ public class BrickManager : MonoBehaviour
 
         if (health <= 0 && BrickType.Destructable)
         {
+            CameraShake.Shaking = true;
             Destroy(gameObject);
-            OnBrickDestroy?.Invoke(this, EventArgs.Empty);
+            OnBrickDestroy?.Invoke(this, new OnBrickDestroyEventArgs{Points = BrickType.Points});
         }
         
     }
@@ -75,9 +80,11 @@ public class BrickManager : MonoBehaviour
             
             if (BrickType.NextBrick != null)
             {
-                //animator.SetBool(0, true);
+                CameraShake.Shaking = true;
+                OnBrickDestroy?.Invoke(this, new OnBrickDestroyEventArgs{Points = BrickType.Points});
                 Instantiate(BrickType.NextBrick, transform.position, transform.rotation);
                 Destroy(gameObject, 0.5f);
+                
             }
         }
     }

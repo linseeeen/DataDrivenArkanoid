@@ -2,6 +2,7 @@ https://strategywiki.org/wiki/Arkanoid/Gameplay
 https://en.wikipedia.org/wiki/Arkanoid
 https://docs.unity3d.com/Manual/class-ScriptableObject.html
 https://opengameart.org/content/arkanoid-assets
+https://www.kenney.nl/assets/impact-sounds
 
 
 Att komma ihåg:

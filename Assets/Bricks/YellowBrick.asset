@@ -19,3 +19,4 @@ MonoBehaviour:
   Destructable: 1
   NextBrick: {fileID: 0}
   PossiblePowerUps: []
+  PowerUpSpawnPossibility: 0
