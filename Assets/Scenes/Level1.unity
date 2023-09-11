@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 82
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -198,12 +198,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -222,7 +234,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 100
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -288,12 +300,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -307,7 +331,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -365,6 +389,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -394,7 +422,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -460,12 +488,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -489,7 +529,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -555,12 +595,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -589,7 +641,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 67
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -647,6 +699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -681,7 +737,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 122
+      value: 121
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -747,12 +803,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -771,7 +839,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 104
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -837,12 +905,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -856,7 +936,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -914,6 +994,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -933,7 +1017,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -991,6 +1075,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -1010,7 +1098,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 110
+      value: 109
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1076,12 +1164,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1100,7 +1200,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1158,6 +1258,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -1177,7 +1281,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1240,8 +1344,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -1254,7 +1370,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1317,8 +1433,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -1331,7 +1459,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1388,6 +1516,10 @@ PrefabInstance:
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_Name
       value: GreenBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -1458,7 +1590,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1516,6 +1648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -1531,83 +1667,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
   m_PrefabInstance: {fileID: 1697694429}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &296916542
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1463240105}
-    m_Modifications:
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.54
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.022089925
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 895168932, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386778, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: BrickType
-      value: 
-      objectReference: {fileID: 11400000, guid: 11caaba5ebe0748488c6984d123e3685, type: 2}
-    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Name
-      value: GreenBrick
-      objectReference: {fileID: 0}
-    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.85
-      objectReference: {fileID: 0}
-    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
 --- !u!1001 &306295726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1617,7 +1676,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1675,6 +1734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -1694,7 +1757,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1757,8 +1820,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -1771,7 +1846,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1834,8 +1909,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -1858,7 +1945,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1921,8 +2008,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -1950,7 +2049,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 66
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2008,6 +2107,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -2027,7 +2130,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 125
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2093,12 +2196,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2112,7 +2227,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2170,6 +2285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -2194,7 +2313,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2252,6 +2371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -2271,7 +2394,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 99
+      value: 98
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2337,12 +2460,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2356,7 +2491,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2422,12 +2557,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2441,7 +2588,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2504,8 +2651,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -2528,7 +2687,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2585,6 +2744,10 @@ PrefabInstance:
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_Name
       value: GreenBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -2665,7 +2828,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2723,6 +2886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -2742,7 +2909,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 115
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2808,12 +2975,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2827,7 +3006,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 117
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2893,12 +3072,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2922,7 +3113,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 107
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2988,12 +3179,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3101,7 +3304,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3159,6 +3362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -3183,7 +3390,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 118
+      value: 117
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3249,12 +3456,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3268,7 +3487,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3326,6 +3545,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -3355,7 +3578,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 30
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3418,8 +3641,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -3437,7 +3672,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 38
+      value: 37
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3500,8 +3735,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -3519,7 +3766,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3577,6 +3824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -3596,7 +3847,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3662,12 +3913,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3681,7 +3944,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3739,6 +4002,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -3749,6 +4016,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+--- !u!1 &588857283 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 866487989083464549, guid: cc0c00c7301d6a945b53009f64be80f5, type: 3}
+  m_PrefabInstance: {fileID: 1769356959}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &588857289
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588857283}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0026114583, y: 0.0013055801}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.66, y: 0.66}
+    newSize: {x: 0.66, y: 0.66}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5764326, y: 0.5633755}
+  m_EdgeRadius: 0.03
 --- !u!4 &589109089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -3763,7 +4061,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3821,6 +4119,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -3840,7 +4142,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3898,6 +4200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -3917,7 +4223,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3975,6 +4281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -3994,7 +4304,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4052,6 +4362,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -4076,7 +4390,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4134,6 +4448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -4158,7 +4476,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4216,6 +4534,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -4240,7 +4562,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4298,6 +4620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -4327,7 +4653,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4385,6 +4711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -4419,7 +4749,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4477,6 +4807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -4501,7 +4835,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 31
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4564,8 +4898,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -4578,7 +4924,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 119
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4644,12 +4990,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4668,7 +5026,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4726,6 +5084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -4750,7 +5112,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 98
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4816,12 +5178,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4840,7 +5214,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 68
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4898,6 +5272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -4917,7 +5295,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4983,12 +5361,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5002,7 +5392,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 108
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5068,12 +5458,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5097,7 +5499,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 32
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5160,8 +5562,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -5189,7 +5603,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5255,12 +5669,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5274,7 +5700,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 91
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5340,12 +5766,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5359,7 +5797,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 92
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5425,12 +5863,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5464,7 +5914,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5530,12 +5980,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5549,7 +6011,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 120
+      value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5615,12 +6077,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5649,7 +6123,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5715,12 +6189,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5734,7 +6220,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5792,6 +6278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -5811,7 +6301,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5868,6 +6358,10 @@ PrefabInstance:
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_Name
       value: GreenBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -5999,7 +6493,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 103
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6065,12 +6559,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6084,7 +6590,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6142,6 +6648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -6161,7 +6671,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6219,6 +6729,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -6243,7 +6757,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6301,6 +6815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -6331,11 +6849,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
   m_PrefabInstance: {fileID: 1037514563}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &977163614 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-  m_PrefabInstance: {fileID: 1882455196}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1012003915 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -6350,7 +6863,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 96
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6416,12 +6929,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6440,7 +6965,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 35
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6503,8 +7028,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -6548,7 +7085,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6606,6 +7143,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -6630,7 +7171,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 94
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6696,12 +7237,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6730,7 +7283,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 34
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6793,8 +7346,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -6812,7 +7377,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 112
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6878,12 +7443,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6897,7 +7474,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6955,6 +7532,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -6989,7 +7570,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 65
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7047,6 +7628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -7071,7 +7656,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7129,6 +7714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -7158,7 +7747,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 97
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7224,12 +7813,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7263,7 +7864,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 63
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7321,6 +7922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -7345,7 +7950,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7408,8 +8013,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -7422,7 +8039,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7480,6 +8097,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -7499,7 +8120,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 72
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7565,90 +8186,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
-    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 3.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 1.3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
---- !u!1001 &1291949423
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1463240105}
-    m_Modifications:
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_RootOrder
-      value: 87
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.5926218
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.8111803
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.022089925
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Size.x
-      value: 3.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Size.y
-      value: 1.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 184323722, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386778, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: BrickType
-      value: 
-      objectReference: {fileID: 11400000, guid: de8b9f23b02d4ba49ab19bb06c677115, type: 2}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Name
-      value: RedBrick
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_AutoTiling
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
@@ -7658,17 +8202,20 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 1.3
       objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
---- !u!1 &1312048818 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-  m_PrefabInstance: {fileID: 1512884479}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1312048822 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-  m_PrefabInstance: {fileID: 1512884479}
+  m_CorrespondingSourceObject: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+  m_PrefabInstance: {fileID: 7472524684531361543}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1319413077
 PrefabInstance:
@@ -7679,7 +8226,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 64
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7737,6 +8284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -7756,7 +8307,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 61
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7814,6 +8365,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -7833,7 +8388,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7891,6 +8446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -7910,7 +8469,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 116
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7976,12 +8535,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8010,7 +8581,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 36
+      value: 35
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8073,8 +8644,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -8087,7 +8670,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8144,6 +8727,10 @@ PrefabInstance:
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_Name
       value: GreenBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -8209,7 +8796,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8272,8 +8859,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -8291,7 +8890,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8349,6 +8948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -8389,7 +8992,6 @@ Transform:
   m_Children:
   - {fileID: 1312048822}
   - {fileID: 1940185292}
-  - {fileID: 977163614}
   - {fileID: 706669641}
   - {fileID: 1652402785}
   - {fileID: 53073813}
@@ -8541,7 +9143,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 101
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8607,6 +9209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
@@ -8615,82 +9221,13 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.newSize.y
       value: 1.3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
---- !u!1001 &1512884479
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1463240105}
-    m_Modifications:
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
       objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.55
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.82
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.022089925
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1907844804, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386778, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: brick
-      value: 
-      objectReference: {fileID: 1312048818}
-    - target: {fileID: 2967869619443386778, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: BrickType
-      value: 
-      objectReference: {fileID: 11400000, guid: d40a754c11baacd41bfec24291ea0bdd, type: 2}
-    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Name
-      value: BlueBrick
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_TagString
-      value: Brick
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -8713,7 +9250,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8771,6 +9308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -8790,7 +9331,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 123
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8856,12 +9397,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8875,7 +9428,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8932,6 +9485,10 @@ PrefabInstance:
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_Name
       value: GreenBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -9063,7 +9620,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 113
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9129,12 +9686,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9148,7 +9717,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 114
+      value: 113
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9214,12 +9783,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9233,7 +9814,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 105
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9299,12 +9880,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9318,7 +9911,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9384,12 +9977,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9466,7 +10071,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9532,12 +10137,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9566,7 +10183,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 109
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9632,12 +10249,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -9651,7 +10280,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9709,6 +10338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -9728,7 +10361,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 40
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9791,8 +10424,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -9805,7 +10450,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 102
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9871,12 +10516,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10001,7 +10658,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 90
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10067,12 +10724,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10086,7 +10755,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 33
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10149,8 +10818,20 @@ PrefabInstance:
       value: BlueBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_TagString
       value: Brick
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -10168,7 +10849,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 62
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10226,6 +10907,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -10245,7 +10930,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 126
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10311,6 +10996,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
 --- !u!1 &1750077187
@@ -10364,6 +11069,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1878375062}
     m_Modifications:
+    - target: {fileID: 866487989083464544, guid: cc0c00c7301d6a945b53009f64be80f5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 866487989083464545, guid: cc0c00c7301d6a945b53009f64be80f5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -10463,7 +11172,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 111
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10529,12 +11238,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10553,7 +11274,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10611,6 +11332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -10630,7 +11355,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10696,12 +11421,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10720,7 +11457,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 88
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10786,12 +11523,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10810,7 +11559,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 106
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10876,12 +11625,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10900,7 +11661,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 95
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10966,12 +11727,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10986,89 +11759,12 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 908224040978230835, guid: 21059fadb90626847b658bba73a840b6, type: 3}
   m_PrefabInstance: {fileID: 908224042489582756}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 908224042489582757}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e23ae1c734e9b043a10f3e1d10305d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1882455196
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1463240105}
-    m_Modifications:
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.38
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.022089925
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 184323722, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
-    - target: {fileID: 2967869619443386773, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2967869619443386778, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: BrickType
-      value: 
-      objectReference: {fileID: 11400000, guid: de8b9f23b02d4ba49ab19bb06c677115, type: 2}
-    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_Name
-      value: RedBrick
-      objectReference: {fileID: 0}
-    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
 --- !u!4 &1885939399 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
@@ -11083,7 +11779,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11149,12 +11845,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11168,7 +11876,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11226,6 +11934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -11248,8 +11960,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1940185292 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-  m_PrefabInstance: {fileID: 296916542}
+  m_CorrespondingSourceObject: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+  m_PrefabInstance: {fileID: 527194253474271495}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1943000875 stripped
 Transform:
@@ -11258,8 +11970,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1943577756 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-  m_PrefabInstance: {fileID: 1291949423}
+  m_CorrespondingSourceObject: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+  m_PrefabInstance: {fileID: 8776232595161304166}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1945805627 stripped
 Transform:
@@ -11275,7 +11987,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 93
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11341,12 +12053,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11375,7 +12099,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11441,12 +12165,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11460,7 +12196,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11518,6 +12254,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -11562,7 +12302,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11620,6 +12360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -11644,7 +12388,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 124
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11710,12 +12454,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11765,7 +12521,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11823,6 +12579,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GreenBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 3.85
@@ -11857,7 +12617,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_RootOrder
-      value: 121
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11923,12 +12683,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: RedBrick
       objectReference: {fileID: 0}
+    - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
       value: 3.86
       objectReference: {fileID: 0}
     - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 3.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 8442550130618445521, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 1.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11938,6 +12710,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2967869619443386772, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
   m_PrefabInstance: {fileID: 961380957}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &527194253474271495
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1463240105}
+    m_Modifications:
+    - target: {fileID: 3350403041027968674, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_Name
+      value: GreenBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.022089925
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350403041027968685, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aa89bd0daf791c14db98c10f19202bad, type: 3}
 --- !u!1001 &908224042489582756
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11959,7 +12788,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 908224040978230834, guid: 21059fadb90626847b658bba73a840b6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.045329437
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 908224040978230834, guid: 21059fadb90626847b658bba73a840b6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12005,5 +12834,153 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paddle
       objectReference: {fileID: 0}
+    - target: {fileID: 908224040978230839, guid: 21059fadb90626847b658bba73a840b6, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 908224040978230839, guid: 21059fadb90626847b658bba73a840b6, type: 3}
+      propertyPath: m_Constraints
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21059fadb90626847b658bba73a840b6, type: 3}
+--- !u!1 &908224042489582757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 908224040978230837, guid: 21059fadb90626847b658bba73a840b6, type: 3}
+  m_PrefabInstance: {fileID: 908224042489582756}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &908224042489582758
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908224042489582757}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 066f61b1be00d05498226f0760e8d2e6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1001 &7472524684531361543
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1463240105}
+    m_Modifications:
+    - target: {fileID: 5664472995899401827, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_Name
+      value: BlueBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.022089925
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664472995899401836, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
+--- !u!1001 &8776232595161304166
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1463240105}
+    m_Modifications:
+    - target: {fileID: 5828938550217937042, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_Name
+      value: RedBrick
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_RootOrder
+      value: 86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5926218
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8111803
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.022089925
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5828938550217937053, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8136d85abf5c26f4692f38910dfd5129, type: 3}

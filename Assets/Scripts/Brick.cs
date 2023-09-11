@@ -11,7 +11,7 @@ public class Brick : ScriptableObject
     public int Health = 1;
     public int Points = 1;
     public bool Destructable = true;
-    public Brick NextBrick;
+    public GameObject NextBrick;
     public List<GameObject> PossiblePowerUps = new List<GameObject>();
     [Range(0,1)]
     public float PowerUpSpawnPossibility;

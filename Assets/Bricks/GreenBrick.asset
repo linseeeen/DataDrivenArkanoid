@@ -17,7 +17,7 @@ MonoBehaviour:
   Health: 2
   Points: 2
   Destructable: 1
-  NextBrick: {fileID: 11400000, guid: d40a754c11baacd41bfec24291ea0bdd, type: 2}
+  NextBrick: {fileID: 5664472995899401827, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
   PossiblePowerUps:
   - {fileID: 8213868881275517954, guid: 3481a1ee507d13d43ad30464d66c6582, type: 3}
   PowerUpSpawnPossibility: 0.25

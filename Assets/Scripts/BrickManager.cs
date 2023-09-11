@@ -18,7 +18,8 @@ public class BrickManager : MonoBehaviour
     private int health;
     private Random random = new Random();
 
-    
+    //private Animator animator;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,7 @@ public class BrickManager : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         health = BrickType.Health;
         OnBrickInstans?.Invoke(this, EventArgs.Empty);
+        //animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -71,7 +73,13 @@ public class BrickManager : MonoBehaviour
             }
             
             
-            if (BrickType.NextBrick != null) BrickType = BrickType.NextBrick;
+            if (BrickType.NextBrick != null)
+            {
+                //animator.SetBool(0, true);
+                Instantiate(BrickType.NextBrick, transform.position, transform.rotation);
+                Destroy(gameObject, 0.5f);
+            }
         }
     }
+
 }

@@ -79,12 +79,12 @@ public class Ball : MonoBehaviour
         {
             direction = Vector2.Reflect(direction, col.contacts[0].normal);
             BallVelocity = direction.normalized * speed;
-        }
+        }/*
         else if(col.gameObject.CompareTag("Brick"))
         {
             direction = Vector2.Reflect(direction, col.contacts[0].normal);
             BallVelocity = direction.normalized * speed;
-        }
+        }*/
         else if (col.gameObject.CompareTag("Finish"))
         {
             Destroy(gameObject);
