@@ -73,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: de8b9f23b02d4ba49ab19bb06c677115, type: 2}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_Name
-      value: RedBrick Variant
+      value: RedBrick
       objectReference: {fileID: 0}
     - target: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
       propertyPath: m_IsActive
@@ -113,23 +113,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
---- !u!1 &5828938550217937042 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2967869619443386779, guid: e105ade7dc8114e4d94357a82c0d9844, type: 3}
-  m_PrefabInstance: {fileID: 8776232593902983433}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &915645536811961604
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5828938550217937042}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: c3b59cf0ca2790f469079240d7283eeb, type: 2}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
-  m_CullingType: 0
