@@ -23,19 +23,18 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject Paddle;
     protected Vector3 paddlePosition;
     [SerializeField] protected float speed = 1;
-    public List<Transform> Walls;
     private CustomInput _input;
     private Vector2 move = Vector2.zero;
     private Rigidbody2D rb;
-    public int Health = 1;
 
     private string powerUp;
 
+    private AudioSource audio;
     public bool gameStarted;
     void Awake() {
         _input = new CustomInput();
         rb = GetComponent<Rigidbody2D>();
-        
+        audio = GetComponent<AudioSource>();
     }
 
     //ska innehålla paddeln ?
@@ -102,6 +101,7 @@ public class Player : MonoBehaviour
             powerUp = capsuleM.PowerUpName;
             OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position, paddel = this.gameObject});
             Destroy(capsule);
+            audio.Play();
         }
     }
 

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(AudioSource))]
 public class Ball : MonoBehaviour
 {
     public static event EventHandler OnBallInstans;
@@ -22,6 +23,7 @@ public class Ball : MonoBehaviour
     public BallScriptObj BallType;
     private bool gameRunning = false;
     public bool FirstBall = false;
+    private AudioSource audio;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +41,7 @@ public class Ball : MonoBehaviour
             BallVelocity = BallType.StartAngle;
         }
         OnBallInstans?.Invoke(this, EventArgs.Empty);
+        audio = GetComponent<AudioSource>();
     }
 
     private void OnEnable()
@@ -74,17 +77,14 @@ public class Ball : MonoBehaviour
         {
             direction = transform.position - col.transform.position;
             BallVelocity = direction.normalized * speed;
+            audio.Play();
         }
         else if(col.gameObject.CompareTag("Wall") || col.gameObject.CompareTag("Brick"))
         {
             direction = Vector2.Reflect(direction, col.contacts[0].normal);
             BallVelocity = direction.normalized * speed;
-        }/*
-        else if(col.gameObject.CompareTag("Brick"))
-        {
-            direction = Vector2.Reflect(direction, col.contacts[0].normal);
-            BallVelocity = direction.normalized * speed;
-        }*/
+            audio.Play();
+        }
         else if (col.gameObject.CompareTag("Finish"))
         {
             Destroy(gameObject);
