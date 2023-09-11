@@ -8,13 +8,22 @@ using TMPro;
 public class RestartScript : MonoBehaviour
 {
     public static event EventHandler OnHealthLoss; 
+    
+    [Tooltip("TextObject for displaying points")]
+    public TMP_Text points;
+    [Tooltip("TextObject for displaying health")]
+    public TMP_Text health;
+    
+    [Tooltip("The 'winLose' object for this scene.")]
+    public WinLose data;
+    [Tooltip("The players health")]
+    public int Health = 3;
+    
+    private int pointsInt = 0;
     private int Balls = 0;
     private int Bricks = 0;
-    public WinLose data;
-    public int Health = 3;
-    private int pointsInt = 0;
-    public TMP_Text points;
-    public TMP_Text health;
+    
+    
 
     private void Start()
     {
@@ -41,7 +50,8 @@ public class RestartScript : MonoBehaviour
             }
             else
             {
-                data.winLose = "You Lost!"; 
+                data.winLose = "You Lost!";
+                data.Points = pointsInt;
                 SceneManager.LoadScene(2);
             }
         }

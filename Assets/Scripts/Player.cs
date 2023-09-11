@@ -19,19 +19,20 @@ public class Player : MonoBehaviour
         public Vector3 playerPosition;
         public GameObject paddel;
     }
+    [Tooltip("The first ball")]
+    public GameObject BallPrefab;
+    [Tooltip("Players speed")]
+    public float speed = 1;
     
-    [SerializeField] GameObject Paddle;
-    protected Vector3 paddlePosition;
-    [SerializeField] protected float speed = 1;
     private CustomInput _input;
-    private Vector2 move = Vector2.zero;
+    private AudioSource audio;
     private Rigidbody2D rb;
 
     private string powerUp;
+    private Vector2 move = Vector2.zero;
 
-    private AudioSource audio;
-    public bool gameStarted;
-    public GameObject BallPrefab;
+    
+
     void Awake() {
         _input = new CustomInput();
         rb = GetComponent<Rigidbody2D>();

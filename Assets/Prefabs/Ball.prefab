@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 866487989083464550}
   - component: {fileID: 866487989083464551}
   - component: {fileID: 866487989083464548}
-  - component: {fileID: 866487989083464544}
   - component: {fileID: 209740079977492656}
+  - component: {fileID: 7107356131114042370}
   m_Layer: 3
   m_Name: Ball
   m_TagString: Ball
@@ -123,22 +123,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallType: {fileID: 11400000, guid: d8588d118e043d143932918497387f3a, type: 2}
   FirstBall: 0
---- !u!58 &866487989083464544
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 866487989083464549}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.32
 --- !u!82 &209740079977492656
 AudioSource:
   m_ObjectHideFlags: 0
@@ -235,3 +219,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!58 &7107356131114042370
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866487989083464549}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000009536743, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.33
