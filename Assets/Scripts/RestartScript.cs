@@ -43,7 +43,7 @@ public class RestartScript : MonoBehaviour
         //TODO: gör så att den automatiskt räknar hur många scener som finns och tar en till slutet
         if (Balls == 0)
         {
-            if (Health > 0)
+            if (Health > 1)
             {
                 OnHealthLoss?.Invoke(this, EventArgs.Empty);
                 Health--;

@@ -20,7 +20,13 @@ public class CameraShake : MonoBehaviour
     private void OnEnable()
     {
         BrickManager.OnBrickDestroy += Hit;
-        Ball.OnBallDestroy += Dead;
+        RestartScript.OnHealthLoss += Dead;
+    }
+
+    private void OnDisable()
+    {
+        BrickManager.OnBrickDestroy += Hit;
+        RestartScript.OnHealthLoss += Dead;
     }
 
     // Update is called once per frame
