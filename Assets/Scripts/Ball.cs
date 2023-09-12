@@ -116,7 +116,7 @@ public class Ball : MonoBehaviour
 
     private void StartGame(object sender, EventArgs e)
     {
-        if (!gameRunning)
+        if (transform.parent != null)
         {
             transform.parent = null;
             BallVelocity = BallType.StartAngle;
