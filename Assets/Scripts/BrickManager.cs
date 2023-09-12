@@ -18,6 +18,8 @@ public class BrickManager : MonoBehaviour
     }
     [Tooltip("The type this brick will start as.")]
     public Brick BrickType;
+    [Tooltip("Gameobject containing the animator and animation for when brick explodes")]
+    public GameObject anim;
     private SpriteRenderer spriteRenderer;
     private int health;
     private Random random = new Random();
@@ -48,6 +50,7 @@ public class BrickManager : MonoBehaviour
         if (health <= 0 && BrickType.Destructable)
         {
             CameraShake.Shaking = true;
+            Instantiate(anim, transform.position, transform.rotation);
             Destroy(gameObject);
             OnBrickDestroy?.Invoke(this, new OnBrickDestroyEventArgs{Points = BrickType.Points});
         }
@@ -83,6 +86,7 @@ public class BrickManager : MonoBehaviour
                 CameraShake.Shaking = true;
                 OnBrickDestroy?.Invoke(this, new OnBrickDestroyEventArgs{Points = BrickType.Points});
                 Instantiate(BrickType.NextBrick, transform.position, transform.rotation);
+                Instantiate(anim, transform.position, transform.rotation);
                 Destroy(gameObject, 0.05f);
                 
             }
