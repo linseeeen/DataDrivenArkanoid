@@ -3,7 +3,10 @@ guid: 38d66be4c7f26da43bb718e894dd90a8
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - winLoseObj: {fileID: 11400000, guid: 1be0c44ab4500b54688b0ba382a54186, type: 2}
+  - youLW: {instanceID: 0}
+  - Points: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

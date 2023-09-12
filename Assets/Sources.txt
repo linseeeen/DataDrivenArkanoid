@@ -4,6 +4,8 @@ https://docs.unity3d.com/Manual/class-ScriptableObject.html
 https://opengameart.org/content/arkanoid-assets
 https://www.kenney.nl/assets/impact-sounds
 
+Bakcground:
+https://www.kenney.nl/assets/space-shooter-redux
 
 Att komma ihåg:
 Jag har stängt av kollision med bollen i projektsettings -> physics

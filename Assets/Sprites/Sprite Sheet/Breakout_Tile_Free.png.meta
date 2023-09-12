@@ -342,9 +342,9 @@ TextureImporter:
       name: Ball
       rect:
         serializedVersion: 2
-        x: 1402
+        x: 1403
         y: 307
-        width: 66
+        width: 65
         height: 66
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -641,7 +641,7 @@ TextureImporter:
         width: 245
         height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -649,6 +649,48 @@ TextureImporter:
       bones: []
       spriteID: d356c5105780a294e9258c960f41cf65
       internalID: -306729718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Breakout_Tile_Free_0
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 113
+        width: 130
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f280ddcea0caf143aee00a5ee838024
+      internalID: -971780386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YellowBrick
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 504
+        width: 386
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d243747d3c303984ba242c5a4d6590b9
+      internalID: 1205633089
       vertices: []
       indices: 
       edges: []
@@ -665,6 +707,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Ball: 200484884
+      Breakout_Tile_Free_0: -971780386
       BrickBlueBroken: 1980659456
       BrickBrown: 857069643
       BrickDarkBlue: 801064919
@@ -689,6 +732,7 @@ TextureImporter:
       PaddleGun: 1777781884
       PaddleL: 2084019556
       PaddleS: 940321335
+      YellowBrick: 1205633089
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

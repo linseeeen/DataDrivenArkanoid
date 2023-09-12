@@ -49,7 +49,6 @@ public class BrickManager : MonoBehaviour
 
         if (health <= 0 && BrickType.Destructable)
         {
-            CameraShake.Shaking = true;
             Instantiate(anim, transform.position, transform.rotation);
             Destroy(gameObject);
             OnBrickDestroy?.Invoke(this, new OnBrickDestroyEventArgs{Points = BrickType.Points});
@@ -83,7 +82,6 @@ public class BrickManager : MonoBehaviour
             
             if (BrickType.NextBrick != null)
             {
-                CameraShake.Shaking = true;
                 OnBrickDestroy?.Invoke(this, new OnBrickDestroyEventArgs{Points = BrickType.Points});
                 Instantiate(BrickType.NextBrick, transform.position, transform.rotation);
                 Instantiate(anim, transform.position, transform.rotation);

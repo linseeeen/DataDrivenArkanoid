@@ -122,14 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e23ae1c734e9b043a10f3e1d10305d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Paddle: {fileID: 908224040978230837}
-  speed: 200
-  Walls:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  Health: 1
-  gameStarted: 0
+  BallPrefab: {fileID: 0}
+  speed: 500
 --- !u!70 &908224040978230844
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

@@ -1,28 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class CameraShake : MonoBehaviour
 {
     private static bool shaking = false;
 
-    public static bool Shaking
-    {
-        get
-        {
-            return shaking;
-        }
-        set
-        {
-            shaking = value;
-        }
-    }
-
     [Tooltip("Change when the shake should be the most powerful.")]
-    public AnimationCurve curve;
+    public AnimationCurve HitShake;
+    [Tooltip("Change when the shake should be the most powerful.")]
+    public AnimationCurve DeathShake;
+    private AnimationCurve curve;
 
     [Tooltip("How long the shake should go on, in seconds.")]
     public float duration = 1f;
+
+    private void OnEnable()
+    {
+        BrickManager.OnBrickDestroy += Hit;
+        Ball.OnBallDestroy += Dead;
+    }
 
     // Update is called once per frame
     void Update()
@@ -44,5 +43,17 @@ public class CameraShake : MonoBehaviour
 
         shaking = false;
         transform.position = startPosition;
+    }
+
+    private void Hit(object sender, BrickManager.OnBrickDestroyEventArgs e)
+    {
+        curve = HitShake;
+        shaking = true;
+    }
+
+    private void Dead(object sender, EventArgs e)
+    {
+        curve = DeathShake;
+        shaking = true;
     }
 }

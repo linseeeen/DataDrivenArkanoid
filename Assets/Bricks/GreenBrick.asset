@@ -15,9 +15,9 @@ MonoBehaviour:
   Prefabname: GreenBrick
   PrefabSprite: {fileID: 895168932, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
   Health: 2
-  Points: 2
+  Points: 100
   Destructable: 1
   NextBrick: {fileID: 5664472995899401827, guid: 340d6c7e3d6e9ba4ba6829156d9eaf54, type: 3}
   PossiblePowerUps:
   - {fileID: 8213868881275517954, guid: 3481a1ee507d13d43ad30464d66c6582, type: 3}
-  PowerUpSpawnPossibility: 0.25
+  PowerUpSpawnPossibility: 0.122

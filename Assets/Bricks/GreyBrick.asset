@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GreyBrick
   m_EditorClassIdentifier: 
   Prefabname: GreyBrick
-  PrefabSprite: {fileID: 21300000, guid: 764a89db17c9e0844b6fb52d244c1f46, type: 3}
+  PrefabSprite: {fileID: 1689596965, guid: 9dc6e23d2c21bab498a15ebc1c0ed3d6, type: 3}
   Health: 1
   Points: 0
   Destructable: 0
