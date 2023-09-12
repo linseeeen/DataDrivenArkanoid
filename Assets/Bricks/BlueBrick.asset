@@ -21,4 +21,4 @@ MonoBehaviour:
   PossiblePowerUps:
   - {fileID: 2929870226407391118, guid: 057f67deacb49e0408f7421d3aff22e4, type: 3}
   - {fileID: 3567694535280468500, guid: f7497c4d329fe7f4bbb7be7f8d3daa6b, type: 3}
-  PowerUpSpawnPossibility: 0.134
+  PowerUpSpawnPossibility: 0.156

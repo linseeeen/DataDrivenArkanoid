@@ -86,9 +86,6 @@ public class Player : MonoBehaviour
     private void OnMove(InputAction.CallbackContext value) {
         move = value.ReadValue<Vector2>();
     }
-
-
-    //TODO: kolla om denna verkligen behövs
     private void OnMoveCancelled(InputAction.CallbackContext value){
         move = Vector2.zero;
     }
@@ -106,15 +103,13 @@ public class Player : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D col)
     {
-        
-        Debug.Log("Colliding with PowerUp");
-        //Checks if not null
         if (col.gameObject.CompareTag("Capsule"))
         {
             GameObject capsule = col.gameObject;
             CapsuleManager capsuleM = capsule.GetComponent<CapsuleManager>();
             powerUp = capsuleM.PowerUpName;
-            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position, paddel = this.gameObject});
+            OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, 
+                playerPosition = transform.position, paddel = this.gameObject});
             Destroy(capsule);
             audio.Play();
         }

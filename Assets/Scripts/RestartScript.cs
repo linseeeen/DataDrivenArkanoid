@@ -53,7 +53,7 @@ public class RestartScript : MonoBehaviour
             {
                 data.winLose = "You Lost!";
                 data.Points += pointsInt;
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(2);
             }
         }
 

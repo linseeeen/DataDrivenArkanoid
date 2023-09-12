@@ -24,8 +24,6 @@ public class Brick : ScriptableObject
     [Range(0,1)]
     public float PowerUpSpawnPossibility;
     
-
-
     private void Awake()
     {
         if (PrefabSprite == null)
@@ -35,7 +33,6 @@ public class Brick : ScriptableObject
 
         
     }
-
     private void OnEnable()
     {
         foreach (GameObject g in PossiblePowerUps)

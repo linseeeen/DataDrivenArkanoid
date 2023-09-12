@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8857111167555771377
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3486827033262353321, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: PowerUpType
+      value: 
+      objectReference: {fileID: 11400000, guid: 301931de37659d94a9688f4a3adaba63, type: 2}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570378, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946469836346570382, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
+      propertyPath: m_Name
+      value: CapsuleFastBall
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c660278883b40a547b50e3c1f30721e6, type: 3}
