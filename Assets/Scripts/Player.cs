@@ -50,6 +50,8 @@ public class Player : MonoBehaviour
         
         _input.Player.StartGame.performed += OnStartGame;
 
+        _input.Player.ExitGame.performed += OnExitGame;
+
         RestartScript.OnHealthLoss += NewBall;
     }
 
@@ -59,6 +61,9 @@ public class Player : MonoBehaviour
         _input.Player.Move.canceled -= OnMoveCancelled;
         
         _input.Player.StartGame.performed -= OnStartGame;
+        
+        _input.Player.ExitGame.performed -= OnExitGame;
+        
         RestartScript.OnHealthLoss -= NewBall;
     }
 
@@ -112,6 +117,15 @@ public class Player : MonoBehaviour
             OnPowerUp?.Invoke(this, new OnPowerUpEventArgs{EnabledPowerUp = powerUp, playerPosition = transform.position, paddel = this.gameObject});
             Destroy(capsule);
             audio.Play();
+        }
+    }
+
+    private void OnExitGame(InputAction.CallbackContext value)
+    {
+        if (value.ReadValue<float>() > 0)
+        {
+            Application.Quit();
+            Debug.Log("Quiting");
         }
     }
 

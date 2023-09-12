@@ -17,6 +17,6 @@ public class TextChange : MonoBehaviour
     {
         Debug.Log(winLoseObj.winLose);
         youLW.text = winLoseObj.winLose;
-        Points.text = winLoseObj.Points.ToString();
+        Points.text = "Points: " + winLoseObj.Points;
     }
 }
